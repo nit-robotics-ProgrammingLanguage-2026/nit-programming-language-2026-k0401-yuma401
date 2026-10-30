@@ -1,12 +1,14 @@
+
 #include <stdio.h>
 
 int main(void) {
-    /* 課題0401: 入力されたintのデータを+100した結果を，int(桁数指定なし)として表示するプログラムを書け． */
+    /* 課題0401 */
     int i;
     int result;
 
-    scanf("%d",&i);         // キーボードからiに入力
-    ? = ? ;                 // iに100を加えて、resultで受ける
-    printf("%d", result);   //resultを表示
+    scanf("%d", &i);
+    result = i + 100;
+    printf("%d", result);
+
     return 0;
 }
